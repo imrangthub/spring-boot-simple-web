@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-	@GetMapping(value = "/hello")
+	@GetMapping(value = "/home")
 	public String helloMsg() {
 		System.out.println("Say Hello from Home Controller !");
 		return "Say Hello from Home Controller !";
