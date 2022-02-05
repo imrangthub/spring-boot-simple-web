@@ -8,7 +8,7 @@ public class HomeController {
 
 	@GetMapping(value = "/home")
 	public String helloMsg() {
-		System.out.println("Say Hello from Home Controller !");
+		System.out.println("Hello from Home Controller !");
 		return "Say Hello from Home Controller !";
 	}
 	
