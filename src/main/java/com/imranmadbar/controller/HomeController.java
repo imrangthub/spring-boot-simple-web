@@ -8,11 +8,11 @@ public class HomeController {
 
 	@GetMapping(value = "/home")
 	public String helloMsg() {
-		System.out.println("Hello from Home Controller !");
-		return "Say Hello from Home Controller !";
+		System.out.println("Update Hello from Home Controller !");
+		return "Hello from Home Controller !";
 	}
 	
-	
+
 	@GetMapping(value = "/")
 	public String welcomeMsg() {
 		System.out.println("Welcome to SpringBootJenkinsApplication");
